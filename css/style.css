@@ -35,8 +35,9 @@
 .heaedrbottom{
     background-image: url("../image/header-bottom.jpg");
     background-size: cover;
-    height: 500px;
-    background-position-y: -383px;
+   /* height: 500px;*/
+    background-position-y: center;
+    padding-bottom: 10%;
 }
 .container-fluid{
     padding-right: 0;
@@ -134,12 +135,19 @@
 .blogboxwrap{
     margin-top: 100px;
 }
+.blogboxintro-top{
+    margin: 0 auto !important;
+}
 .blogbox{
     margin: 0 auto;
     border: 1px solid #f5f5f5;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 25px;
+}
+.blogadmin{
+    padding-left: 0;
+    padding-right: 0;
 }
 .blogbox img{
     width: 100%;
@@ -187,7 +195,9 @@
 }
 /*end main blog*/
 /*start footer*/
-.footerwrap{
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 .footertop{
     background-color: #3ac0c7;
@@ -200,8 +210,8 @@
     padding-right: 100px;
 }
 .footertop a{
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
 }
 .footertop img{
     width: 25px;
@@ -209,6 +219,89 @@
     position: relative;
     top: 6px;
 }
+.footerbottom{
+    background-color: #aaaaaa;
+}
+.aboutintro img{
+    width: 150px;
+    height: 150px;
+    margin-top: 98px;
+}
+.about{
+    margin-top: 100px;
+}
+.aboutme{
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutme h2{
+    margin-bottom: 25px;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: #ffff;
+    font-size: 24px;
+    font-family: arial,sans-serif;
+    letter-spacing: 5px;
+}
+.bottomtext p{
+    line-height: 26px;
+    color: #fff;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.aboutme a{
+    color: #8DD6DA;
+    letter-spacing: 2px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
 
+}
+.social-bottom{
+    margin-bottom: 25px;
+    width: 100%;
+    margin-top: 25px;
+}
+.social-bottom li{
+    display: inline-block;
+    padding-left: 35px;
+}
+.social-bottom li:first-child{
+    padding-left: 0;
+}
+.copy{
+    color: #ffffff;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.messagebox-inside{
+    margin-top: 100px;
+}
+.messagebox-inside h3 {
+    color: white;
+    font-size: 35px;
+    font-family: arial, sans-serif;
+    margin-bottom: 15px;
+}
+.messagebox-inside input{
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+.messagebox-inside button{
+    width: 100%;
+    margin-top: 5px;
+    height: 36px;
+    background-color: #0cc7d2;
+    border: none;
+    color: white;
+    font-family: arial,sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
 
 /*end footer*/
