@@ -1,9 +1,12 @@
 .headewrap{
     background-color: rgba(242, 242, 242, 0.56);
-    box-shadow: inset 0px 1px 5px 6px rgba(220, 217, 217, 0.33);
+    box-shadow: inset 0px -4px 4px 3px rgba(220, 217, 217, 0.33);
 }
 .heaedrtop{
     height: 55px;
+}
+.heaedrtop button{
+    display: none;
 }
 .sitecontainer{
     max-width: 1200px;
@@ -77,6 +80,8 @@
 .box img{
     width: 100%;
     height: 100%;
+    margin-left: 25px;
+    margin-right: 20px;
 }
 .imagewrap{
     margin-bottom: 150px;
@@ -85,10 +90,9 @@
     position: relative;
     top: -62%;
     background-color: #fff;
-    left: 26%;
+    left: 30%;
     width: 50%;
     text-align: center;
-    height: 14%;
 }
 .introname a{
     text-decoration: none;
@@ -98,11 +102,13 @@
     letter-spacing: 3px;
     font-weight: bold;
     transition: color 1s ease 0s;
+    line-height: 40px;
 }
 .introname a:hover{
     color: #1E5259;
 }
-.introname a::before{
+
+/*.introname a::before{
     content: "";
     clear: both;
     display: block;
@@ -113,7 +119,7 @@
     clear: both;
     display: block;
     padding-top: 10px;
-}
+}*/
 .otherblogs{
     background-color:#f2f2f2;
     padding-top: 25px;
@@ -130,6 +136,7 @@
     border-right: 2px solid rgba(179, 145, 160, 1);
     margin-left: 25px;
 }
+
 /*end blog line*/
 /*start main blog*/
 .blogboxwrap{
@@ -223,9 +230,9 @@
     background-color: #aaaaaa;
 }
 .aboutintro img{
-    width: 150px;
-    height: 150px;
-    margin-top: 98px;
+    width: 154px;
+    height: 154px;
+    margin-top: 100px;
 }
 .about{
     margin-top: 100px;
@@ -277,6 +284,7 @@
     color: #ffffff;
     letter-spacing: 1px;
     word-spacing: 1px;
+    text-align: center;
 }
 .messagebox-inside{
     margin-top: 100px;
