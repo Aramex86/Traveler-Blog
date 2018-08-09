@@ -1,3 +1,102 @@
+@media screen and (max-width: 2560px){
+    #galery{
+        margin: 0 auto;
+        height: 100vh;
+        background-color: white;
+    }
+
+}
+@media screen and (max-width: 1440px){
+    #close{
+        position: relative;
+        left: 1357px;
+        top: -5px;
+    }
+    #galery{
+        margin: 0 auto;
+        height: 100vh;
+        background-color: white;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .bottomtext{
+        max-width: 73%;
+    }
+    .rates{
+        display: flex;
+        position: relative;
+        top: 623px;
+        left: 272px;
+        width: 300px;
+    }
+    .next{
+        left: 897px;
+        background-image: url(../image/social/sliderarows.png);
+        background-repeat: no-repeat;
+        width: 23px;
+        height: 53px;
+        background-size: 23px 53px;
+        display: block;
+        top: 317px;
+    }
+    .prev{
+        background-image: url(../image/social/prev.png);
+        background-repeat: no-repeat;
+        width: 23px;
+        height: 53px;
+        background-size: 23px 53px;
+        display: block;
+        left: 94px;
+    }
+    #close{
+        position: relative;
+        left: 951px;
+        top: -5px;
+    }
+    .mainimg img{
+        width: 685px;
+        position: absolute;
+        margin-left: 158px;
+        height: 576px;
+    }
+    .topgallerywrap{
+        width: 97%;
+        display: flex;
+    }
+    .rates{
+        display: flex;
+        position: relative;
+        top: 623px;
+        left: 170px;
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen  and (max-width: 775px) {
     .heaedrtop button {
         width: 45px;
@@ -7,6 +106,67 @@
         margin-left: 25px;
         margin-top: 4px;
     }
+    .biowrap{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 125px;
+        margin-bottom: 100px;
+        flex-direction: column;
+    }
+    .bioimage img{
+        width: 100%;
+        height: 90%;
+         margin-left: 0;
+    }
+    .nav-topwrap{
+        height: 100vh;
+        width: 100vw;
+        z-index: 999;
+    }
+  .mainvideo{
+      width: 80%;
+      position: relative;
+      left: 90px;
+      margin-bottom: 572px;
+  }
+  .mainimg img{
+      width: 630px;
+      position: absolute;
+      margin-left: 69px;
+      height: 551px;
+  }
+  #close{
+      position: relative;
+      left: 671px;
+      top: 14px;
+  }
+  .biography p{
+      margin-bottom: 45px;
+      width: 100%;
+      line-height: 1.5em;
+      font-size: 15px;
+      font-family: arial;
+      color: #7e7e7e;
+  }
+.next{
+    left: 740px;
+    background-image: url(../image/social/sliderarows.png);
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 53px;
+    background-size: 23px 53px;
+    display: block;
+    top: 317px;
+}
+.prev{
+    background-image: url(../image/social/prev.png);
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 53px;
+    background-size: 23px 53px;
+    display: block;
+    left: 18px;
+}
 
     .messagebox {
         justify-content: center !important;
@@ -81,4 +241,71 @@
         margin-top: 25px;
         margin-bottom: 25px;
     }
+    .pic-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 426px){
+.mainimg img{
+    width: 287px;
+    position: absolute;
+    margin-left: 65px;
+    height: 253px;
+    top: 317px;
+}
+    .next{
+        left: 383px;
+        background-image: url(../image/social/sliderarows.png);
+        background-repeat: no-repeat;
+        width: 23px;
+        height: 53px;
+        background-size: 23px 53px;
+        display: block;
+        top: 317px;
+    }
+    #close{
+        position: relative;
+        left: 340px;
+        top: 14px;
+    }
+    .rates{
+        display: flex;
+        position: relative;
+        top: 448px;
+        left: 76px;
+        width: 300px;
+    }
+    .social-top{
+        display: none !important;
+    }
+    .mainvideo{
+        width: 80%;
+        position: relative;
+        left: 48px;
+        margin-bottom: 572px;
+    }
+    .pageintro{
+        padding-left: 15px;
+        width: 100%;
+        margin-bottom: 50px;
+        font-size: 14px!important;
+        line-height: 1.5em;
+        color: rgba(126, 126, 126, 0.64) !important;
+    }
+    .videomenu{
+        height: 200px;
+        overflow: visible;
+        width: 77%;
+        display: flex;
+        margin: 352px auto;
+        flex-direction: column;
+    }
+    .mainvideo{
+        width: 80%;
+        position: relative;
+        left: 48px;
+        margin-bottom: 310px;
+    }
+
 }

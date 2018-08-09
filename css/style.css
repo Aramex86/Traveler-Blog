@@ -89,7 +89,7 @@
 .introname{
     position: relative;
     top: -62%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.76);
     left: 30%;
     width: 50%;
     text-align: center;
@@ -207,7 +207,7 @@
     padding-right: 0 !important;
 }
 .footertop{
-    background-color: #3ac0c7;
+    background-color: #35a9b0;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
@@ -220,14 +220,45 @@
     color: white !important;
     text-decoration: none !important;
 }
+.pic{
+    width: 100%;
+
+}
+.pic-wrap{
+    margin-bottom: -2px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+}
+.footer-image img{
+    width: 100%;
+}
+.footer-image{
+}
+.hover{
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 221px;
+    background-image: url("../image/social/icons8-heart-outline-64.png");
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.hover img{
+    position: relative;
+    z-index: -99;
+    opacity: 0.4;
+}
+
 .footertop img{
     width: 25px;
     height: 25px;
     position: relative;
     top: 6px;
 }
+
 .footerbottom{
-    background-color: #aaaaaa;
+    background-color: rgba(136, 136, 136, 0.84);
 }
 .aboutintro img{
     width: 154px;
@@ -259,7 +290,7 @@
     margin-bottom: 8px;
 }
 .aboutme a{
-    color: #8DD6DA;
+    color: #209298;
     letter-spacing: 2px;
     font-family: arial,sans-serif;
     font-size: 14px;
@@ -313,3 +344,305 @@
 }
 
 /*end footer*/
+/*footer slider page*/
+/*.postwrap{
+    padding-left: 200px;
+}
+.bx-wrapper{
+    -webkit-box-shadow: none;
+     box-shadow: none;
+     border:none;
+}
+
+.slideimg img{
+}
+.user{
+    display: flex;
+    margin-left: -17px;
+    margin-top: 100px;
+}
+.user img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.user p{
+    float: right;
+    padding: 8px 15px;
+}
+.user span::after{
+    content: "";
+    border-bottom: 1px solid #d0d0d0a6;
+    width: 282px;
+    display: block;
+    padding-top: 50px;
+    margin-left: -131px;
+}
+#count{
+    border-bottom: none;
+    width: 0;
+    padding-top: 0;
+    margin-left: 0;
+}
+.wrap1{
+    display: flex;
+}
+.like img{
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+.count{
+    float: right;
+}
+.like{
+    list-style: none;
+    position: relative;
+    top: 59px;
+    left: -279px;
+}
+.like li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+.slideimg{
+    width: 800px;
+    height: 800px;
+}
+.slideimg img{
+    height: 700px;
+    width: 723px;
+    margin-top: 100px;
+}
+.bx-next{
+    left: 87%;
+    background: url(../image/social/sliderarows.png) no-repeat 0 2px !important;
+}
+.bx-prev{
+    left: 10px;
+    background: url(../image/social/prev.png) no-repeat 0 2px !important;
+}
+.bx-wrapper .bx-controls-direction a{
+    position: absolute;
+    top: 51%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 62px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.sliderwrap{
+   display: initial;
+}*/
+#galery{
+    height: 100vh;
+    background-color: white;
+    display: none;
+
+}
+.mainimg{
+}
+.mainimg img {
+    width: 757px;
+    position: absolute;
+    /* overflow: hidden; */
+    margin-left: 260px;
+    margin-top: -30px;
+    height: 620px;
+}
+.rates{
+    display: flex;
+    position: relative;
+    top: -31px;
+    left: 1076px;
+    width: 300px;
+}
+
+.rates img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.rates p{
+    width: 213px;
+    position: relative;
+    left: 25px;
+    top: 6px;
+}
+.rates span::after{
+    content: "";
+    border-bottom: 1px solid #d0d0d0a6;
+    width: 209px;
+    display: block;
+    padding-top: 50px;
+    margin-left: -115px;
+}
+.like{
+    llist-style: none;
+    position: relative;
+    top: 59px;
+    left: -203px;
+    width: 280px;
+}
+.like li {
+    display: inline-block;
+    padding-right: 15px;
+
+}
+.like img {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+.count{
+    float: right;
+}
+#close{
+    position: relative;
+    left: 1550px;
+    top: 35px;
+}
+.prev, .next{
+    position: relative;
+    top:370px;
+}
+.next{
+    left: 1325px;
+    background-image: url("../image/social/sliderarows.png");
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 53px;
+    background-size: 23px 53px;
+    display: block;
+    top:317px;
+}
+.prev{
+    background-image: url("../image/social/prev.png");
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 53px;
+    background-size: 23px 53px;
+    display: block;
+    left: 120px;
+}
+#close{
+    background: initial;
+    border: none;
+    background-image: url("../image/social/closegallery.png");
+    width: 36px;
+    height: 33px;
+}
+/*start about page*/
+.aboutmepage h2{
+    color: black;
+    margin-bottom: 80px;
+    font-size: 36px;
+    font-family:"Times New Roman",sans-serif;
+    margin-top: 25px;
+    padding: 0 133px;
+}
+.biowrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 125px;
+    margin-bottom: 100px;
+}
+
+.bioimage img{
+    width: 100%;
+    height: 90%;
+    margin-left: 81px;
+}
+.biography p{
+    margin-bottom: 45px;
+    width: 367px;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-family: arial;
+    color: #7e7e7e;
+}
+.biography p:nth-child(4){
+    margin-bottom: 5px;
+}
+.biography a{
+    color: #3AC0C7;
+}
+.pagetitle{
+    padding: 0 151px;
+    margin-bottom: 70px;
+    margin-top: -50px;
+    font-size: 36px;
+    font-style: italic;
+}
+.pageintro{
+    padding-left: 156px;
+    width: 75%;
+    margin-bottom: 50px;
+    font-size: 14px!important;
+    line-height: 1.5em;
+    color: rgba(126, 126, 126, 0.64) !important;
+}
+/*video part*/
+.mainvideo{
+    width: 80%;
+    position: relative;
+    left: 119px;
+    margin-bottom: 700px;
+}
+.mainvideo video{
+  width: 100%;
+}
+#video1 , #video2, #video3{
+    position: absolute;
+}
+
+
+
+.videomenu{
+    height: 200px;
+    overflow: hidden;
+    width: 81%;
+    display: flex;
+    margin: 100px auto;
+}
+.bottomvideo1, .bottomvideo2,
+.bottomvideo3,
+.bottomvideo4{
+    height: 180px;
+    width: 316px;
+    margin-right: 11px
+}
+.dimensions{
+    width: 316px;
+    height: 180px;
+}
+.videocover1 , .videocover2,
+.videocover3, .videocover4{
+    width: 316px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -183px;
+    display: none;
+    cursor: pointer;
+}
+.playbutton{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    margin: 18% auto;
+    border-radius: 50px;
+    background-image: url(../image/social/play.png);
+    background-repeat: no-repeat;
+    background-position: 17px 13px;
+}
+.videocover1 , .videocover2,
+.videocover3, .videocover4 span{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
