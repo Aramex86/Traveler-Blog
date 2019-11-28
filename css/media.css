@@ -119,9 +119,10 @@
          margin-left: 0;
     }
     .nav-topwrap{
-        height: 100vh;
-        width: 100vw;
+        min-height: 100vh;
+        width: 100%;
         z-index: 999;
+        padding: 0 !important;
     }
   .mainvideo{
       width: 80%;
